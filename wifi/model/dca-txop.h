@@ -117,6 +117,8 @@ public:
   */
   int64_t AssignStreams (int64_t stream);
 
+  Ptr<MacLow> GetLow() const;
+
 private:
   class TransmissionListener;
   class NavListener;
