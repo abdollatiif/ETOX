@@ -285,6 +285,12 @@ DcaTxop::StartAccessIfNeeded (void)
 
 
 Ptr<MacLow>
+DcaTxop::GetLow() const
+{
+	return m_low;
+}
+
+Ptr<MacLow>
 DcaTxop::Low (void)
 {
   NS_LOG_FUNCTION (this);
